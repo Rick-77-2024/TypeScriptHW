@@ -1,0 +1,20 @@
+.users-box {
+    display: flex;
+    flex-wrap: wrap; /* Для перенесения на следующую строку при необходимости */
+    width: 50%; /* Ширина контейнера (можно изменить) */
+    margin: 0 auto; /* Центрирование контейнера */
+}
+
+.user-block {
+    width: 462px; /* Ширина для каждой "карточки" */
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px; /* Для отступов между элементами */
+    box-sizing: border-box; /* Чтобы padding не увеличивал ширину */
+}
+
+/*.address-block {*/
+/*    flex-wrap: wrap;*/
+/*    width: 22%;*/
+/*    margin-bottom: 10px;*/
+/*}*/
